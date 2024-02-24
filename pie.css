@@ -1,0 +1,81 @@
+
+header {
+    color:  #A4A400;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial';
+}
+h1 {
+    background-color: #F0F0F0; 
+    display: inline-block; 
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2{
+    color:  #A4A400;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial';
+    background-color: #F0F0F0; 
+    width :max-content;
+    font-size: 18pt;
+    font-weight: normal;
+}
+.home{
+    color:  #a4a400;
+}
+.comment{
+    background-color: #fefe88; 
+    font-style: italic;
+
+
+}
+p,li {
+    font-size: 11pt;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+body {
+    background-image: url('https://www.rose-hulman.edu/class/csse/csse280/current/Homework/recipe/images/silverware.jpg');
+    background-repeat: repeat;
+  }
+  pre {
+    white-space: pre-wrap; 
+    font-family: monospace;
+
+}
+.image-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.image-list li img {
+ 
+    margin-right: 10px; /* Adjust spacing between image and text */
+    vertical-align: middle; /* Align image vertically with text */
+}
